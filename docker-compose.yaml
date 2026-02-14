@@ -1,0 +1,17 @@
+services:
+  
+  aplication:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+    
+  database:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: SpringTesteDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
