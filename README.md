@@ -27,8 +27,8 @@ O projeto permite realizar as operações básicas de:
 #### 1. Clone este repositório
 
 ```bash
-git clone https://github.com/GuilhermeeDev/CRUD-simples.git
-cd CRUD-simples
+git clone https://github.com/GuilhermeeDev/CRUD-Spring-Boot.git
+cd CRUD-Spring-Boot
 ```
 #### 2. Rode a aplicação
 ```
